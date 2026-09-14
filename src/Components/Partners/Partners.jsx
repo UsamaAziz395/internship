@@ -1,8 +1,7 @@
 import React from 'react'
-// import HexaLogo from '../../assets/Gallery/HexaLogo.png'
 
 import HexaLogo from "../../assets/HexaLogo.png"
-import Techlogo from '../../assets/Techlogo.png'
+import Techlogo from '../../assets/TechLogo.png'
 import RealEstatelogo from '../../assets/RealEstatelogo.png'
 import Monogram from '../../assets/Monogram.png'
 
