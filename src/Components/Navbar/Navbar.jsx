@@ -123,13 +123,7 @@ function Navbar() {
             Properties
           </Link>
 
-          <Link
-            to="/services"
-            onClick={() => setShowMenu(false)}
-            className="text-gray-700 hover:text-[#0061E0]"
-          >
-            Services
-          </Link>
+        
 
           <Link
             to="/contact"

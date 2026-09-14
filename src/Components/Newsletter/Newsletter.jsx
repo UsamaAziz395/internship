@@ -1,60 +1,3 @@
-// import React, { useState } from 'react'
-
-// function Newsletter() {
-//   const [sub, setSub] = useState("");
-
-//   const Subscribe = (e) => {
-//     e.preventDefault();
-    
-
-// console.log(sub);
-
-//     setSub("");
-
-
-//   };
-
-  
-//   return (
-//     <>
-
-//     <div className='h-40 w-full bg-[#0061E0]'>
-// <div className='flex justify-evenly pt-15'>
-//   <div>
-//       <h1 className='text-4xl text-white font-bold'>Join Our Newsletter Now </h1>
-//       <p className='text-white text-sm'>Register now to get updates on promotions...</p>
-//       </div>
-// <div className=''>
-//   <form onSubmit={Subscribe}>
-//   <input
-//     value={sub}
-//     onChange={(e) => setSub(e.target.value)}
-//     className="text-xs outline-none w-70 h-12 bg-white py-3 rounded-tl-md rounded-bl-md pl-3"
-//     type="text"
-//     placeholder="Enter your email to subscribe..."
-//   />
-
-//   <button
-//     type="submit"
-//     className="bg-black h-12 w-30 text-white rounded-tr-md rounded-br-md"
-//   >
-//     SUBSCRIBE
-//   </button>
-// </form>
-// </div>
-
-// </div>
-      
-//     </div>
-    
-    
-//     </>
-    
-//   )
-// }
-
-// export default Newsletter
-
 
 
 import React, { useState } from 'react'
@@ -95,18 +38,7 @@ function Newsletter() {
           <input
             value={sub}
             onChange={(e) => setSub(e.target.value)}
-            className="
-              h-12
-              w-full
-              min-w-0
-              bg-white
-              px-3
-              text-xs
-              outline-none
-              rounded-md
-              sm:rounded-l-md
-              sm:rounded-r-none
-            "
+            className="h-12 w-full min-w-0 bg-white px-3 text-sm outline-none rounded-md sm:rounded-l-md sm:rounded-r-none"
             type="email"
             placeholder="Enter your email to subscribe..."
           />

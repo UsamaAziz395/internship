@@ -8,15 +8,17 @@ import Footer from '../../Components/Footer/Footer'
 import Expertise from '../../Components/Expertise/Expertise'
 import Propertise from '../../Components/Properties/Propertise'
 import Partners from '../../Components/Partners/Partners'
-import Blog from '../../Components/Blog/Blog.jsx'
+import Blogs from '../Blog/Blog.jsx'
 import Dream from '../Dream Home/Dream.jsx'
 import About from '../About/Aboutus.jsx'
 import Facilities from '../Facilities/Facilities.jsx'
 import Customers from '../Customer/Customer.jsx'
+import Navbar from '../Navbar/Navbar.jsx'
 
 function Home() {
   return (
     <>
+  <Navbar />
   <HeroSection />
   <About />
   <Features />
@@ -27,7 +29,7 @@ function Home() {
   <Propertise />
     <Partners />
     <Facilities />
-    <Blog />
+    <Blogs />
  <Newsletter />
  <Footer />
  

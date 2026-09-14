@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Singapore from '../../assets/Gallery/Singapore.png'
 
 const Blogs = [
@@ -56,9 +56,40 @@ const Blogs = [
     date: 'July 10, 2022',
     more: 'Read More',
   },
+    {
+    id: 7,
+    image: Singapore,
+    name: 'Willim Seklo',
+    residence: 'Apartment',
+    title: 'New Apartment Nice in the Best Canadian Cities',
+    date: 'July 10, 2022',
+    more: 'Read More',
+  },
+  {
+    id: 8,
+    image: Singapore,
+    name: 'Willim Seklo',
+    residence: 'Apartment',
+    title: 'New Apartment Nice in the Best Canadian Cities',
+    date: 'July 10, 2022',
+    more: 'Read More',
+  },
+  {
+    id: 9,
+    image: Singapore,
+    name: 'Willim Seklo',
+    residence: 'Apartment',
+    title: 'New Apartment Nice in the Best Canadian Cities',
+    date: 'July 10, 2022',
+    more: 'Read More',
+  },
 ]
 
 function Blog() {
+
+  const [viewall,setViewall] =useState(false);
+
+
   return (
     <section className="w-full px-5 sm:px-8 md:px-12 lg:px-20 py-12">
 
@@ -74,9 +105,11 @@ function Blog() {
       </div>
 
       {/* Blog Cards */}
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6 pt-10">
 
-        {Blogs.map((blog) => (
+    
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6 pt-10">
+  {Blogs .slice(0, viewall ? Blogs.length : 6)
+        .map((blog) => (
           <div
             key={blog.id}
             className="w-full max-w-[320px] sm:w-[300px] shadow-md overflow-hidden"
@@ -116,14 +149,28 @@ function Blog() {
             </div>
 
           </div>
-        ))}
 
+        ))};
+      
+      
       </div>
 
+
+      
+      
+
       {/* View All Button */}
+
+      
       <div className="flex justify-center mt-10">
-        <button className="h-10 w-28 border border-[#0061E0] rounded-full text-[#0061E0] hover:bg-[#0061E0] hover:text-white transition">
-          View All
+        <button className="h-10 w-28 border border-[#0061E0] rounded-full text-[#0061E0] hover:bg-[#0061E0] hover:text-white transition"
+    onClick={() => setViewall(!viewall)}
+      
+
+        >
+        
+
+          {viewall ? 'View less' : 'View all'}
         </button>
       </div>
 
@@ -132,3 +179,5 @@ function Blog() {
 }
 
 export default Blog
+
+
