@@ -1,7 +1,6 @@
 import React from 'react'
 
 import HeroSection from '../../Components/Hero Section/HeroSection'
-import Features from '../../Components/Features/Features'
 import Services from '../../Components/Services/Services'
 import Newsletter from '../../Components/Newsletter/Newsletter'
 import Footer from '../../Components/Footer/Footer'
@@ -14,6 +13,8 @@ import About from '../About/Aboutus.jsx'
 import Facilities from '../Facilities/Facilities.jsx'
 import Customers from '../Customer/Customer.jsx'
 import Navbar from '../Navbar/Navbar.jsx'
+import { Features } from 'tailwindcss'
+
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Home() {
   <Navbar />
   <HeroSection />
   <About />
-  <Features />
+  {/* <Features /> */}
   <Services />
   <Customers />/
   <Expertise />
