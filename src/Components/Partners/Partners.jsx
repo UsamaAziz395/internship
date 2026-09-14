@@ -2,7 +2,7 @@ import React from 'react'
 
 import HexaLogo from "../../assets/HexaLogo.png"
 import Techlogo from '../../assets/TechLogo.png'
-import RealEstatelogo from '../../assets/RealEstatelogo.png'
+import RealEstatelogo from '../../assets/RealEstateLogo.png'
 import Monogram from '../../assets/Monogram.png'
 
 function Partners() {
