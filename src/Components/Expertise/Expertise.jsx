@@ -4,6 +4,7 @@ import Mike from "../../assets/Mike.png";
 import Steven from "../../assets/Steven.png";
 import Group from "../../assets/Group.png";
 import Call from "../../assets/Call.png";
+import Billi from "../../assets/Billi.png"
 
 const Experte = [
   {
