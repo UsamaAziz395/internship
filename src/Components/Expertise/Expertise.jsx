@@ -1,10 +1,9 @@
 import React from "react";
-import David from "../../assets/Gallery/David.png";
-import Mike from "../../assets/Gallery/Mike.png";
-import Steven from "../../assets/Gallery/Steven.png";
-import Billi from "../../assets/Gallery/Billi.png";
-import Group from "../../assets/Gallery/Group.png";
-import Call from "../../assets/Gallery/Call.png";
+import David from "../../assets/David.png";
+import Mike from "../../assets/Mike.png";
+import Steven from "../../assets/Steven.png";
+import Group from "../../assets/Group.png";
+import Call from "../../assets/Call.png";
 
 const Experte = [
   {

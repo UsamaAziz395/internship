@@ -1,6 +1,6 @@
 
 import React from "react";
-import house from "../../assets/Gallery/house.png";
+import house from "../../assets/house.png";
 
 function HeroSection() {
   return (

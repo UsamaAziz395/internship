@@ -2,9 +2,9 @@ Propertise
 
 import React from 'react'
 
-import California from '../../assets/Gallery/California.png'
-import LosAngelas from '../../assets/Gallery/LosAngelas.png'
-import Singapore from '../../assets/Gallery/Singapore.png'
+import California from '../../assets/California.png'
+import LosAngelas from '../../assets/LosAngelas.png'
+import Singapore from '../../assets/Singapore.png'
 
 const Property = [
   {

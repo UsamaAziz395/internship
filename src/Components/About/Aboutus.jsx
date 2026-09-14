@@ -1,9 +1,9 @@
 
 
 import React from "react";
-import image1 from "../../assets/Gallery/image1.png";
-import Villa from "../../assets/Gallery/Villa.png";
-import Money from "../../assets/Gallery/Money.png";
+import image1 from "../../assets/image1.png";
+import Villa from "../../assets/Villa.png";
+import Money from "../../assets/Money.png";
 import { GoArrowRight } from "react-icons/go";
 
 function Aboutus() {

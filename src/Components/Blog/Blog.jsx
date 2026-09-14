@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Singapore from '../../assets/Gallery/Singapore.png'
+import Singapore from '../../assets/Singapore.png'
 
 const Blogs = [
   {

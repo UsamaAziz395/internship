@@ -1,12 +1,12 @@
 // import React from 'react'
-// import buy from '../../assets/Gallery/buy.png'
-// import rent from '../../assets/Gallery/rent.png'
-// import sale from '../../assets/Gallery/sale.png'
+// import buy from '../../assets/buy.png'
+// import rent from '../../assets/rent.png'
+// import sale from '../../assets/sale.png'
 // import { GoArrowRight } from "react-icons/go";
-// import excavator from '../../assets/Gallery/excavator.png'
-// import design from '../../assets/Gallery/design.png'
-// import office from '../../assets/Gallery/office.png'
-// import map from '../../assets/Gallery/map.png'
+// import excavator from '../../assets/excavator.png'
+// import design from '../../assets/design.png'
+// import office from '../../assets/office.png'
+// import map from '../../assets/map.png'
 
 
 // const Service = [ 
@@ -122,13 +122,13 @@
 
 
 import React from "react";
-import buy from "../../assets/Gallery/buy.png";
-import rent from "../../assets/Gallery/rent.png";
-import sale from "../../assets/Gallery/sale.png";
-import excavator from "../../assets/Gallery/excavator.png";
-import design from "../../assets/Gallery/design.png";
-import office from "../../assets/Gallery/office.png";
-import map from "../../assets/Gallery/map.png";
+import buy from "../../assets/buy.png";
+import rent from "../../assets/rent.png";
+import sale from "../../assets/sale.png";
+import excavator from "../../assets/excavator.png";
+import design from "../../assets/design.png";
+import office from "../../assets/office.png";
+import map from "../../assets/map.png";
 
 const Service = [
   {

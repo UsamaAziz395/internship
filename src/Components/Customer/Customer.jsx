@@ -1,7 +1,7 @@
 import React from "react";
-// import Grace from "../../assets/Gallery/Grace.png";
-// import Connor from "../../assets/Gallery/connor.png";
-// import Kira from "../../assets/Gallery/kira.png";
+import Grace from "../../assets/Grace.png";
+import Connor from "../../assets/connor.png";
+import Kira from "../../assets/kira.png";
 
 
 function Customers() {
